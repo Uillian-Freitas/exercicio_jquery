@@ -1,0 +1,35 @@
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+    margin-top: 20px;
+}
+
+li {
+    cursor: pointer; 
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+
+.concluida {
+    text-decoration: line-through; 
+    color: #888;
+}
